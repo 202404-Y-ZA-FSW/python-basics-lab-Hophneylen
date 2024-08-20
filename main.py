@@ -6,7 +6,7 @@ attempts = 0
 while True:
     guess = input("Guess the number between one to hundred(1-100): ")
     
-    #to check if user entered an integer
+    #to check if user entered an integer 
     if guess.isdigit():
         guess = int(guess)
         attempts += 1
